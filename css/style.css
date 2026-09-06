@@ -1,0 +1,116 @@
+/* Base styles */
+  /*Changed text font using Playground*/
+  /*inspired by Elegant preset*/
+  /*font impact*/
+body {
+  font-family: Impact,sans-serif;
+  color: #d6d6e2;
+  background: #0f3460;
+}
+
+h2 {
+  font-size: 3.4rem;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.35rem;
+  line-height: 2;
+  text-align: right;
+  opacity: 0.75;
+}
+
+
+/* Avatar image (works for both layouts) */
+.card-avatar {
+  width: 120px;          /* or 140px for Layout B */
+  height: 120px;
+  border-radius: 50%;    /* makes it a circle */
+  /* For Layout A, center it: */
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+
+
+/* Name — inspired by Elegant preset*/
+/* Playground for color changes in text and background*/
+/*changed background color to give some contrast other cards have matching text color and background color*/
+/*Need to center*/
+.card-name {
+  /* font-family, font-size, color, text-align, margin */
+font-family: Impact,sans-serif;
+  color:#d6d6e2;
+   background: #942ba0;
+}
+
+
+/*Other cards on this page use same text and colors*/
+.card-tagline {
+  /* secondary heading styles */
+  font-family: Impact,sans-serif;
+  color:#d6d6e2;
+  width: 800px;
+  height: 147px;
+  padding: 37px;
+  border: 3px dashed #d6d6e2;
+  border-radius: 8px;
+  margin: 17px;
+  box-sizing: content-box;
+  background: #456380;
+}
+
+
+/*Used text align right*/
+.card-bio {
+  /* paragraph styles: font-size, line-height, color */
+  /*adjusted in width to longer to make two lines of text fit*/
+  /*issue with trying to match font color with previous cards. It is not adjusting when I changed it to match other sections*/
+  font-family: Impact,sans-serif;
+  color:#d6d6e2;
+  width: 800px;
+  height: 147px;
+  padding: 37px;
+  border: 3px dashed #d6d6e2;
+  border-radius: 8px;
+  margin: 17px;
+  box-sizing: content-box;
+  background: #456380;
+}
+
+
+/*adjustments in height reduced from 147 px to 47 to fit text size for appearance*/
+.card-skills {
+  /* list styles */
+  font-family: Impact,sans-serif;
+  color:#d6d6e2;
+  width: 245px;
+  height: 47px;
+  padding: 37px;
+  border: 3px dashed #d6d6e2;
+  border-radius: 8px;
+  margin: 17px;
+  box-sizing: content-box;
+  background: #456380;
+}
+
+
+
+/*adjustment in padding to fit closer*/
+/*reduced padding for link to fit smaller space for link*/
+ .card-link {
+  /* link styling: color, text-decoration, padding, background */
+  width: 245px;
+  height: 147px;
+  /*reduced padding for appearance of small link*/
+  padding: 7px;
+  border: 3px dashed #d6d6e2;
+ border-radius: 8px;
+  margin: 17px;
+  box-sizing: content-box;
+  background: #456380;
+}
+
+
